@@ -8,6 +8,7 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
     [SerializeField] private GameObject menuCreditos;
+    [SerializeField] private GameObject botonAdvice;
 
     private bool juegoPausado = false;
 
@@ -25,14 +26,22 @@ public class Pause : MonoBehaviour
                 Pausa();
             }
         }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Time.timeScale = 1f;
+            botonAdvice.SetActive(false);
+        }
     }
+
+
      public void Pausa()
-    {
+     {
         juegoPausado = true;
         Time.timeScale = 0f;
         botonPausa.SetActive(false);
         menuPausa.SetActive(true);
-    }
+     }
 
     public void Reanudar()
     {

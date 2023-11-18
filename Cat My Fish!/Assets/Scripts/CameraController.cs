@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour
     void MouseCamera()
     {
         Vector2 input = _inputController.MouseInput();
-        transform.Rotate(Vector2.up * input.x * _mouseSensitivity * Time.deltaTime);
+        //transform.Rotate(Vector2.up * input.x * _mouseSensitivity * Time.deltaTime);
 
         Vector2 angle = _cameraAnchor.eulerAngles;
         angle.x -= input.y * _mouseSensitivity * Time.deltaTime;

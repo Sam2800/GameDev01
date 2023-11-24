@@ -12,6 +12,7 @@ public class Throw : MonoBehaviour
     private Rigidbody hookRB;
     //private SphereCollider hookSC;
     [SerializeField] private TrajectoryLine trajectoryLine;
+    [SerializeField] private GameObject panelAdvice;
     private float hookMass = 10f;
     //public float changePerSecond;
 
@@ -39,6 +40,8 @@ public class Throw : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             hookForce = 210f;
+            Time.timeScale = 1f;
+            panelAdvice.SetActive(false);
         }
     }
 

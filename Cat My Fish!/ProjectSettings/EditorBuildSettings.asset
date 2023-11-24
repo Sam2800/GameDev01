@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2bd001d52a9ddcb48a639963837e1b7d
+  - enabled: 1
+    path: "Assets/Scenes/LagoPeque\xF1ines.unity"
+    guid: 5e5dd160dfd896948a38dcb914d1047f
   m_configObjects: {}

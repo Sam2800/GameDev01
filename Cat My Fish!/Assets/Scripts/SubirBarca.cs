@@ -13,7 +13,7 @@ public class SubirBarca : MonoBehaviour
     public bool onBoat = false;
     public bool offBoat = false;
 
-    CharacterController controller;
+    //CharacterController controller;
     GameObject boat;
     GameObject dock;
 
@@ -24,7 +24,7 @@ public class SubirBarca : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        //controller = GetComponent<CharacterController>();
         boat = GameObject.FindGameObjectWithTag("barca");
         dock = GameObject.FindGameObjectWithTag("muelle");
         target = GameObject.Find("Target");
@@ -75,7 +75,7 @@ public class SubirBarca : MonoBehaviour
         if (onBoat)
         {
             scripController.enabled = false;
-            controller.enabled = false;
+            //controller.enabled = false;
 
             transform.position = target.transform.position;
             transform.rotation = target.transform.rotation;
@@ -85,7 +85,7 @@ public class SubirBarca : MonoBehaviour
         else
         {
             scripController.enabled = true;
-            controller.enabled = true;
+            //controller.enabled = true;
 
             gameObject.transform.SetParent(null);
         }

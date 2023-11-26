@@ -23,7 +23,7 @@ public class ScoreManager : MonoBehaviour
     {
         highscore = PlayerPrefs.GetInt("higscore", 0);
         scoreText.text = score.ToString() + " /12 Peces Capturados";
-        highscoreText.text = "HIGHSCORE: " + highscore.ToString();
+        highscoreText.text = "Puntaje Alcanzado: " + highscore.ToString();
     }
 
     public void AddPoint()

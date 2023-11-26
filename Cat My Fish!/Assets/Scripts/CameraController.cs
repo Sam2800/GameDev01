@@ -16,18 +16,18 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         MouseCamera();
-        if (Input.GetMouseButtonDown(1))
-        {
-            _mouseSensitivity = 0f;
-        }
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    _mouseSensitivity = 0f;
+        //}
     }
 
     void MouseCamera()
     {
-        Vector2 input = _inputController.MouseInput();
-        transform.Rotate(Vector2.up * input.x * _mouseSensitivity * Time.deltaTime);
+        Vector3 input = _inputController.MouseInput();
+        transform.Rotate(Vector3.up * input.x * _mouseSensitivity * Time.deltaTime);
 
-        Vector2 angle = _cameraAnchor.eulerAngles;
+        Vector3 angle = _cameraAnchor.eulerAngles;
         angle.x -= input.y * _mouseSensitivity * Time.deltaTime;
         angle.x = Mathf.Clamp(angle.x, 0, 50);
         _cameraAnchor.eulerAngles = angle;

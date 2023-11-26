@@ -33,7 +33,7 @@ public class MainButtons : MonoBehaviour
     public void Alcanzado()
     {
         panelJugar.SetActive(false);
-        panelCapturado.SetActive(true);
+        panelAlcanzado.SetActive(true);
     }
 
     public void Capturado()

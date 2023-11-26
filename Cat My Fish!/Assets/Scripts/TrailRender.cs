@@ -6,11 +6,11 @@ public class TrailRender : MonoBehaviour
 {
     public GameObject hook;
     private TrailRenderer hookTR;
-    public CameraController _cameraController;
+    //public CameraController _cameraController;
 
     void Start()
     {
-        _cameraController = FindObjectOfType<CameraController>();
+        //_cameraController = FindObjectOfType<CameraController>();
         hookTR = hook.GetComponent<TrailRenderer>();
         hookTR.emitting = false;
     }
@@ -20,7 +20,7 @@ public class TrailRender : MonoBehaviour
         if(otherObj.gameObject.tag == "Ground")
         {
             hookTR.emitting = true;
-            _cameraController._mouseSensitivity = 180f;
+            //_cameraController._mouseSensitivity = 180f;
         }
     }
 

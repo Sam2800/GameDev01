@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class SubirBarca : MonoBehaviour
 {
+    [SerializeField] private GameObject panelAviso;
     public Behaviour scripController;
     public GameObject Activation;
     public GameObject canvas;
     public GameObject sCanvas;
+    public Rigidbody rigid;
 
     public float distanceInteraction = 12f;
     public bool onBoat = false;
     public bool offBoat = false;
+    public int anclado = 0;
 
     //CharacterController controller;
     GameObject boat;
     GameObject dock;
+    GameObject hook;
 
     bool onRange;
     float distance;
@@ -27,6 +31,7 @@ public class SubirBarca : MonoBehaviour
         //controller = GetComponent<CharacterController>();
         boat = GameObject.FindGameObjectWithTag("barca");
         dock = GameObject.FindGameObjectWithTag("muelle");
+        hook = GameObject.FindGameObjectWithTag("hook");
         target = GameObject.Find("Target");
         targets = GameObject.Find("Targets");
     }
@@ -81,6 +86,8 @@ public class SubirBarca : MonoBehaviour
             transform.rotation = target.transform.rotation;
 
             gameObject.transform.SetParent(target.transform);
+            hook.transform.SetParent(target.transform);
+
         }
         else
         {
@@ -88,6 +95,7 @@ public class SubirBarca : MonoBehaviour
             //controller.enabled = true;
 
             gameObject.transform.SetParent(null);
+            hook.transform.SetParent(gameObject.transform);
         }
 
         if (offBoat)
@@ -109,5 +117,37 @@ public class SubirBarca : MonoBehaviour
             onBoat = false;
             offBoat = false;
         }
+
+        if(onBoat == true && anclado == 0)
+        {
+            panelAviso.SetActive(true);
+        }
+        else
+        {
+            panelAviso.SetActive(false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (onBoat == true)
+            {
+                Constraints();
+                anclado++;
+            }
+            if (anclado == 2)
+            {
+                Constraintsed();
+                anclado = 0;
+            }
+        }
+    }
+
+    void Constraints()
+    {
+        rigid.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+    }
+    void Constraintsed()
+    {
+        rigid.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
     }
 }

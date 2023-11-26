@@ -39,7 +39,7 @@ public class Throw : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            hookForce = 210f;
+            hookForce = 270f;
             Time.timeScale = 1f;
             panelAdvice.SetActive(false);
         }

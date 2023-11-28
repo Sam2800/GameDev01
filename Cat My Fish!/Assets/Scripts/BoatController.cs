@@ -21,7 +21,7 @@ public class BoatController : MonoBehaviour
         {
             float traslacion = Input.GetAxis("Vertical") * velocidad * 1000;
             //float rotation = Input.GetAxis("Mouse X") * rotacion * 1000;
-            float rotation = Input.GetAxis("Horizontal") * rotacion * 1000;
+            float rotation = Input.GetAxis("Mouse X") * rotacion * 1000;
 
             traslacion *= Time.deltaTime;
             rotation *= Time.deltaTime;

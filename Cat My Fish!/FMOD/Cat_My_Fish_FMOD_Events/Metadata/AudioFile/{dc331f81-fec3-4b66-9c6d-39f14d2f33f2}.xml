@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dc331f81-fec3-4b66-9c6d-39f14d2f33f2}">
+		<property name="assetPath">
+			<value>Wooden Hit.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.1817913832199545</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06be4cff-076c-4f95-b34b-d4d32bd9b3c4}</destination>
+		</relationship>
+	</object>
+</objects>

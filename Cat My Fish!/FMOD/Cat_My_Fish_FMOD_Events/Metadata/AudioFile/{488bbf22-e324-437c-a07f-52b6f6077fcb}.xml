@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{488bbf22-e324-437c-a07f-52b6f6077fcb}">
+		<property name="assetPath">
+			<value>Boat Moving.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.2954195011337877</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06be4cff-076c-4f95-b34b-d4d32bd9b3c4}</destination>
+		</relationship>
+	</object>
+</objects>

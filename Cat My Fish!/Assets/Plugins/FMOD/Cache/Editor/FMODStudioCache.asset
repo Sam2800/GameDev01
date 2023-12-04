@@ -1,5 +1,329 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6906250746238325351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Boat/Boat_Stop
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Boat/Boat_Stop
+  Guid:
+    Data1: -2104040725
+    Data2: 1107181614
+    Data3: 152349063
+    Data4: -1543889664
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3061
+--- !u!114 &-6768388635640486564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Water
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Water
+  Guid:
+    Data1: 1443904661
+    Data2: 1309064424
+    Data3: -648389240
+    Data4: 1760650892
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64909
+--- !u!114 &-6514789955628833844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Felix_Footsteps/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2346201129
+    data2: 1136748566
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grass
+  - Wood
+  Exists: 1
+--- !u!114 &-5918039232919758679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Felix_Actions/Grabbing_Fish
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Felix_Actions/Grabbing_Fish
+  Guid:
+    Data1: 1699858832
+    Data2: 1179944983
+    Data3: -1082632319
+    Data4: 1752735995
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1363
+--- !u!114 &-4187987203174411178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Buttons/Click_Button_Trough_Scene
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Buttons/Click_Button_Trough_Scene
+  Guid:
+    Data1: 1024369887
+    Data2: 1193553608
+    Data3: -1862921840
+    Data4: -1143965501
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-4136902398851729320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Felix_Actions/Cast
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Felix_Actions/Cast
+  Guid:
+    Data1: -2059810551
+    Data2: 1233044535
+    Data3: 1865835693
+    Data4: 961061920
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1300
+--- !u!114 &-4037702469155273347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu_Pause
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu_Pause
+  Guid:
+    Data1: 607305220
+    Data2: 1274163470
+    Data3: 1935903131
+    Data4: 2141558057
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25500
+--- !u!114 &-3879440364356115852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Boat/Boat_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Boat/Boat_Idle
+  Guid:
+    Data1: -198205735
+    Data2: 1214509431
+    Data3: 1472984979
+    Data4: 2122534311
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 98181
+--- !u!114 &-3160705817282757956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Nature
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Nature
+  Guid:
+    Data1: 1236747606
+    Data2: 1197770478
+    Data3: -689291853
+    Data4: -532261693
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39515
+--- !u!114 &-2304866968675987019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu_UI
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu_UI
+  Guid:
+    Data1: -576377095
+    Data2: 1177201216
+    Data3: 1081254814
+    Data4: 1323569376
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 119000
+--- !u!114 &-2034852011460621355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Felix_Actions/Felix_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Felix_Actions/Felix_Footsteps
+  Guid:
+    Data1: 718377507
+    Data2: 1248224179
+    Data3: -205310801
+    Data4: 1560679026
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6514789955628833844}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-308074654053910035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Boat/Boat_Moving
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Boat/Boat_Moving
+  Guid:
+    Data1: 1159494944
+    Data2: 1113096512
+    Data3: -315939938
+    Data4: 673142700
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18590
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +336,225 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  EditorBanks:
+  - {fileID: 1193399636974564238}
+  - {fileID: 7376336101655640494}
+  - {fileID: 2521866013906683050}
+  EditorEvents:
+  - {fileID: -4037702469155273347}
+  - {fileID: 6939076686428619312}
+  - {fileID: -2304866968675987019}
+  - {fileID: -3160705817282757956}
+  - {fileID: -6768388635640486564}
+  - {fileID: -4136902398851729320}
+  - {fileID: -308074654053910035}
+  - {fileID: -2034852011460621355}
+  - {fileID: 6563410366604953028}
+  - {fileID: 906732480042115372}
+  - {fileID: -5918039232919758679}
+  - {fileID: 955913117875979990}
+  - {fileID: -3879440364356115852}
+  - {fileID: -4187987203174411178}
+  - {fileID: -6906250746238325351}
+  EditorParameters:
+  - {fileID: 3527757202431058508}
+  MasterBanks:
+  - {fileID: 2521866013906683050}
+  StringsBanks:
+  - {fileID: 1193399636974564238}
+  cacheTime: 638372089650879019
   cacheVersion: 131609
+--- !u!114 &906732480042115372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Buttons/Click_Button_Not_Available
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Buttons/Click_Button_Not_Available
+  Guid:
+    Data1: -1473460913
+    Data2: 1154729466
+    Data3: -2000521805
+    Data4: -1612662430
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2181
+--- !u!114 &955913117875979990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Buttons/Click_Button_Available
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Buttons/Click_Button_Available
+  Guid:
+    Data1: 1937868962
+    Data2: 1243712300
+    Data3: 1453043618
+    Data4: 1886054142
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2181
+--- !u!114 &1193399636974564238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Cat_My_Fish_FMOD_Events/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638372089650879019
+  FileSizes:
+  - Name: Desktop
+    Value: 1620
+  Exists: 1
+--- !u!114 &2521866013906683050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Cat_My_Fish_FMOD_Events/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638372089650873180
+  FileSizes:
+  - Name: Desktop
+    Value: 1236
+  Exists: 1
+--- !u!114 &3527757202431058508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Surface
+  m_EditorClassIdentifier: 
+  Name: Surface
+  StudioPath: parameter:/Surface
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2346201129
+    data2: 1136748566
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grass
+  - Wood
+  Exists: 1
+--- !u!114 &6563410366604953028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sfx/Felix_Actions/Felix_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Sfx/Felix_Actions/Felix_Idle
+  Guid:
+    Data1: 1790548299
+    Data2: 1225828068
+    Data3: -1591555693
+    Data4: 1665863614
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56000
+--- !u!114 &6939076686428619312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Nivel_I
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Nivel_I
+  Guid:
+    Data1: 1821307749
+    Data2: 1278000475
+    Data3: 1484340412
+    Data4: 542445666
+  Banks:
+  - {fileID: 7376336101655640494}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69818
+--- !u!114 &7376336101655640494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CATMYFISH_MAINBANK.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Cat_My_Fish_FMOD_Events/Build/Desktop/CATMYFISH_MAINBANK.bank
+  Name: CATMYFISH_MAINBANK
+  StudioPath: bank:/CATMYFISH_MAINBANK
+  lastModified: 638372089650770760
+  FileSizes:
+  - Name: Desktop
+    Value: 4742656
+  Exists: 1

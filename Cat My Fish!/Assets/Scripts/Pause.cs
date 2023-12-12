@@ -8,6 +8,7 @@ public class Pause : MonoBehaviour
     [SerializeField] private GameObject botonPausa;
     [SerializeField] private GameObject menuPausa;
     [SerializeField] private GameObject menuCreditos;
+    [SerializeField] private GameObject musicLago;
 
     private bool juegoPausado = false;
 
@@ -32,6 +33,8 @@ public class Pause : MonoBehaviour
         Time.timeScale = 0f;
         botonPausa.SetActive(false);
         menuPausa.SetActive(true);
+        musicLago.SetActive(false);
+
     }
 
     public void Reanudar()
@@ -40,6 +43,7 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         botonPausa.SetActive(true);
         menuPausa.SetActive(false);
+        musicLago.SetActive(true);
     }
 
     public void Reiniciar()

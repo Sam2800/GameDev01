@@ -26,6 +26,9 @@ public class SubirBarca : MonoBehaviour
     GameObject target;
     GameObject targets;
 
+    public Animator animator;
+    public string variableBote;
+
     void Start()
     {
         //controller = GetComponent<CharacterController>();
@@ -88,6 +91,7 @@ public class SubirBarca : MonoBehaviour
             gameObject.transform.SetParent(target.transform);
             hook.transform.SetParent(target.transform);
 
+            animator.SetBool(variableBote, true);
         }
         else
         {
@@ -96,6 +100,8 @@ public class SubirBarca : MonoBehaviour
 
             gameObject.transform.SetParent(null);
             hook.transform.SetParent(gameObject.transform);
+
+            animator.SetBool(variableBote, false);
         }
 
         if (offBoat)
@@ -104,15 +110,15 @@ public class SubirBarca : MonoBehaviour
             transform.rotation = targets.transform.rotation;
         }
 
-        if (onRange && !onBoat && Input.GetKeyUp(KeyCode.B))
+        if (onRange && !onBoat && Input.GetKeyUp(KeyCode.F))
         {
             onBoat = true;
         }
-        if (onBoat && Input.GetKeyDown(KeyCode.N))
+        if (onBoat && Input.GetKeyDown(KeyCode.E))
         {
             offBoat = true;
         }
-        if (onBoat && Input.GetKeyUp(KeyCode.N))
+        if (onBoat && Input.GetKeyUp(KeyCode.E))
         {
             onBoat = false;
             offBoat = false;

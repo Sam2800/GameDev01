@@ -4,8 +4,8 @@ public class InputController : MonoBehaviour
 {
     public Vector3 MoveInput()
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
         return new Vector3(x, y);
     }
 
